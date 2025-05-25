@@ -17,6 +17,8 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
   test:
+    runs-on: ubuntu-latest
     steps:
       - name: 22f3000194@ds.study.iitm.ac.in
         run: echo "Hello, world!"
+        

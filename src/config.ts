@@ -10,63 +10,73 @@ export const siteConfig = {
     github: "https://github.com/karunmv",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+    "I have been passionate about robotics since I was 9 years old and have been pursuing that goal ever since. From attending a camp that piqued my interest in this field, to tinkering with Arduinos to make small bots of my own, to now working on industrial and research projects in reputed institutions, I have constantly strived to broaden my horizons and challenge myself to solve bigger and harder problems. I have established myself as a reliable leader capable of managing teams ranging from 10-50 members and efficiently solving problems using that man power to successfully complete the project in hand.",
   skills: ["Python", "C", "C++", "Matlab", "Java", "ROS2", "Gazebo", "Verilog", "MySQL", "Assembly", "Docker", "HTML/CSS", "JavaScript", "jinja2", "Flask", "bash", "sklearn", "PyTorch", "NumPy", "pandas", "LaTeX", "SolidWorks", "KiCad" ],
-  projects: [
-    {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-  ],
-  experience: [
-    {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
-  ],
+projects: [
+  {
+    name: "MasterPrint LAAM Simulation (Current)",
+    description:
+      "Developed a realistic digital twin of the world’s largest 3D printer using SolidWorks, ROS2, and Gazebo. Implemented a ROS2 skill server leveraging ros2_control to enable dynamic printhead switching and homing procedures. Simulated coordinated robotic arm operations to correct extrusion errors, improving efficiency and operational safety.",
+    skills: ["SolidWorks", "ROS2", "Gazebo", "ros2_control", "Python", "Docker"],
+  },
+  {
+    name: "Multi-Robot Coordination for Lunar ISRU (Current)",
+    description:
+      "Researching coordination algorithms for heterogeneous robot teams performing excavation and transport tasks on the lunar surface. Evaluating system reliability under communication loss and robot malfunction scenarios, and proposing lightweight, fault-tolerant methods to enhance robustness with minimal computational overhead.",
+    skills: ["ROS2", "Python", "C++", "Multi-Robot Systems", "Autonomous Systems", "Algorithm Design"],
+  },
+  {
+    name: "University Rover Challenge (Current)",
+    description:
+      "Team Lead for UMaine’s URC 2026 team designing a Mars rover capable of autonomous navigation, SLAM, and object detection. Overseeing software development with ROS2, hardware interfacing, computer vision (OpenCV, YOLO), control systems, and team logistics including outreach and funding.",
+    skills: ["ROS2", "OpenCV", "YOLO", "C++", "Python", "SLAM", "Control Systems", "Systems Engineering"],
+  },
+  {
+    name: "NASA Lunabotics (2025 Finalist)",
+    description:
+      "Led UMaine’s Lunabotics team to finalist position in the 2025 NASA competition. Developed a rover capable of constructing a lunar berm, integrating autonomy (navigation and control), video streaming, teleoperation, and robust communication systems (UART, WiFi). Managed systems engineering, power design, and team coordination.",
+    skills: ["ROS2", "Python", "C++", "Autonomy", "Teleoperation", "Systems Engineering", "WiFi", "UART"],
+  },
+  {
+    name: "Robotic Arm Localization",
+    description:
+      "Worked on localizing a UFactory xArm using a Basler camera and AprilTags. Utilized MoveIt2 for motion planning and Foxglove for visualization. Developed a custom Docker environment for scalable deployment of multiple arms supporting LAAM printers.",
+    skills: ["ROS2", "MoveIt2", "Foxglove", "Basler Camera", "AprilTags", "Docker", "Python"],
+  },
+],
+
+experience: [
+  {
+    company: "Advanced Structures and Composites Center, University of Maine",
+    title: "Robotics Intern",
+    dateRange: "May 2024 - Present",
+    bullets: [
+      "Upgraded and built new robotic sensor integrations for various Large Additive Manufacturing (LAAM) and 3D Printing devices, including the world’s largest 3D printer",
+      "Developed and deployed software using Python, ROS2, and Docker to enhance robotic automation and data acquisition systems",
+      "Collaborated with multidisciplinary engineering teams to test, calibrate, and optimize robotic systems for advanced manufacturing research",
+    ],
+  },
+  {
+    company: "High Altitude Ballooning Lab, University of Maine",
+    title: "Undergraduate Research Assistant",
+    dateRange: "Jan 2023 - Aug 2024",
+    bullets: [
+      "Designed and implemented a multi-camera real-time video streaming system using Python and C for NASA-funded high-altitude balloon missions",
+      "Integrated camera payloads with embedded systems for data collection during atmospheric research flights",
+      "Contributed to the NASA Eclipse Project by assisting in payload setup, testing, and flight operations",
+    ],
+  },
+  {
+    company: "Computer Vision and Autonomous Robotics Lab, University of Maine",
+    title: "Undergraduate Research Assistant",
+    dateRange: "Sep 2022 - May 2024",
+    bullets: [
+      "Developed UAV automation systems to collect and analyze agricultural data for crop monitoring applications",
+      "Applied machine learning frameworks including PyTorch and Scikit-Learn to estimate wild blueberry health and yield from aerial imagery",
+      "Awarded the CUGR Fellowship funded by the NASA-affiliated Maine Space Grant Consortium (MSGC) for outstanding undergraduate research",
+    ],
+  },
+],
   education: [
     {
       school: "University of Maine",

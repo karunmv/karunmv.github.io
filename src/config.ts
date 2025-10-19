@@ -17,30 +17,35 @@ projects: [
     name: "MasterPrint LAAM Simulation (Current)",
     description:
       "Developed a realistic digital twin of the world’s largest 3D printer using SolidWorks, ROS2, and Gazebo. Implemented a ROS2 skill server leveraging ros2_control to enable dynamic printhead switching and homing procedures. Simulated coordinated robotic arm operations to correct extrusion errors, improving efficiency and operational safety.",
+    link:"https://karunmv.github.io/project-masterprint",
     skills: ["SolidWorks", "ROS2", "Gazebo", "ros2_control", "Python", "Docker"],
   },
   {
     name: "Multi-Robot Coordination for Lunar ISRU (Current)",
     description:
       "Researching coordination algorithms for heterogeneous robot teams performing excavation and transport tasks on the lunar surface. Evaluating system reliability under communication loss and robot malfunction scenarios, and proposing lightweight, fault-tolerant methods to enhance robustness with minimal computational overhead.",
+    link:"https://karunmv.github.io/project-honors",  
     skills: ["ROS2", "Python", "C++", "Multi-Robot Systems", "Autonomous Systems", "Algorithm Design"],
   },
   {
     name: "University Rover Challenge (Current)",
     description:
       "Team Lead for UMaine’s URC 2026 team designing a Mars rover capable of autonomous navigation, SLAM, and object detection. Overseeing software development with ROS2, hardware interfacing, computer vision (OpenCV, YOLO), control systems, and team logistics including outreach and funding.",
+    link:"https://karunmv.github.io/project-urc",
     skills: ["ROS2", "OpenCV", "YOLO", "C++", "Python", "SLAM", "Control Systems", "Systems Engineering"],
   },
   {
     name: "NASA Lunabotics (2025 Finalist)",
     description:
       "Led UMaine’s Lunabotics team to finalist position in the 2025 NASA competition. Developed a rover capable of constructing a lunar berm, integrating autonomy (navigation and control), video streaming, teleoperation, and robust communication systems (UART, WiFi). Managed systems engineering, power design, and team coordination.",
+    link:"https://karunmv.github.io/project-lunabotics",
     skills: ["ROS2", "Python", "C++", "Autonomy", "Teleoperation", "Systems Engineering", "WiFi", "UART"],
   },
   {
     name: "Robotic Arm Localization",
     description:
       "Worked on localizing a UFactory xArm using a Basler camera and AprilTags. Utilized MoveIt2 for motion planning and Foxglove for visualization. Developed a custom Docker environment for scalable deployment of multiple arms supporting LAAM printers.",
+    link:"https://karunmv.github.io/project-robot-arm",    
     skills: ["ROS2", "MoveIt2", "Foxglove", "Basler Camera", "AprilTags", "Docker", "Python"],
   },
 ],
@@ -85,6 +90,7 @@ experience: [
       achievements: [
         "3.957 GPA",
         "Dean's List all semesters",
+        "Minors in Math and Robotics",
         "President of Robotics Club and IEEE Student Branch",
       ],
     },

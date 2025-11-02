@@ -18,6 +18,7 @@ projects: [
     description:
       "Developed a realistic digital twin of the world’s largest 3D printer using SolidWorks, ROS2, and Gazebo. Implemented a ROS2 skill server leveraging ros2_control to enable dynamic printhead switching and homing procedures. Simulated coordinated robotic arm operations to correct extrusion errors, improving efficiency and operational safety.",
     //link:"https://karunmv.github.io/project-masterprint",
+    link:"https://composites.umaine.edu/advanced-manufacturing/masterprint/",
     skills: ["SolidWorks", "ROS2", "Gazebo", "ros2_control", "Python", "Docker"],
   },
   {
@@ -25,6 +26,7 @@ projects: [
     description:
       "Researching coordination algorithms for heterogeneous robot teams performing excavation and transport tasks on the lunar surface. Evaluating system reliability under communication loss and robot malfunction scenarios, and proposing lightweight, fault-tolerant methods to enhance robustness with minimal computational overhead.",
     //link:"https://karunmv.github.io/project-honors",  
+    link:"https://docs.google.com/presentation/d/1ipGB_JOv0L-3Q4rSChD6IGOZ5hb4pHw1qSnV-Iiti8Q/edit?usp=sharing",
     skills: ["ROS2", "Python", "C++", "Multi-Robot Systems", "Autonomous Systems", "Algorithm Design"],
   },
   {
@@ -32,6 +34,7 @@ projects: [
     description:
       "Team Lead for UMaine’s URC 2026 team designing a Mars rover capable of autonomous navigation, SLAM, and object detection. Overseeing software development with ROS2, hardware interfacing, computer vision (OpenCV, YOLO), control systems, and team logistics including outreach and funding.",
     //link:"https://karunmv.github.io/project-urc",
+    link:"https://urc.marssociety.org/",
     skills: ["ROS2", "OpenCV", "YOLO", "C++", "Python", "SLAM", "Control Systems", "Systems Engineering"],
   },
   {
@@ -39,14 +42,32 @@ projects: [
     description:
       "Led UMaine’s Lunabotics team to finalist position in the 2025 NASA competition. Developed a rover capable of constructing a lunar berm, integrating autonomy (navigation and control), video streaming, teleoperation, and robust communication systems (UART, WiFi). Managed systems engineering, power design, and team coordination.",
     //link:"https://karunmv.github.io/project-lunabotics",
+    link:"https://github.com/karunmv/xarm_nodes",
     skills: ["ROS2", "Python", "C++", "Autonomy", "Teleoperation", "Systems Engineering", "WiFi", "UART"],
   },
   {
     name: "Robotic Arm Localization",
     description:
       "Worked on localizing a UFactory xArm using a Basler camera and AprilTags. Utilized MoveIt2 for motion planning and Foxglove for visualization. Developed a custom Docker environment for scalable deployment of multiple arms supporting LAAM printers.",
-    //link:"https://karunmv.github.io/project-robot-arm",    
+    //link:"https://karunmv.github.io/project-robot-arm",
+    link:"https://github.com/karunmv/xarm_nodes",    
     skills: ["ROS2", "MoveIt2", "Foxglove", "Basler Camera", "AprilTags", "Docker", "Python"],
+  },
+    {
+    name: "NASA Eclipse Project",
+    description:
+      "Contributed to the NASA Eclipse Project, where I developed a multi-camera real-time video streaming system in Python and C for high-altitude balloon missions. I integrated camera payloads with embedded systems for atmospheric data collection and supported payload setup, testing, and flight operations to ensure reliable mission performance.",
+    //link:"https://karunmv.github.io/project-robot-arm",
+    link:"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=he-7bbYAAAAJ&citation_for_view=he-7bbYAAAAJ:u5HHmVD_uO8C",    
+    skills: ["Python", "C", "HAM Radio", "Scientific Ballooning", "Research Paper Writing", "Conference Presentation"],
+  },
+  {
+    name: "Estimating Wild Blueberry Plant Health using Machine Learning Techniques",
+    description:
+      "I developed UAV automation systems to collect and analyze agricultural data for crop monitoring applications. Using machine learning frameworks such as PyTorch and Scikit-Learn, I built models to estimate wild blueberry health and yield from aerial imagery. This work earned me the CUGR Fellowship, funded by the NASA-affiliated Maine Space Grant Consortium (MSGC), in recognition of outstanding undergraduate research.",
+    //link:"https://karunmv.github.io/project-robot-arm",
+    link:"https://docs.google.com/presentation/d/1PemGjIoqzGKGrZNtgpuDvgKHUEbvK_bgv9an4Fzg63Y/edit?usp=sharing",    
+    skills: ["Python", "C", "HAM Radio", "Scientific Ballooning", "Research Paper Writing", "Conference Presentation"],
   },
 ],
 

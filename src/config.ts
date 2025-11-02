@@ -42,7 +42,7 @@ projects: [
     description:
       "Led UMaine’s Lunabotics team to finalist position in the 2025 NASA competition. Developed a rover capable of constructing a lunar berm, integrating autonomy (navigation and control), video streaming, teleoperation, and robust communication systems (UART, WiFi). Managed systems engineering, power design, and team coordination.",
     //link:"https://karunmv.github.io/project-lunabotics",
-    link:"https://github.com/karunmv/xarm_nodes",
+    link:"https://drive.google.com/drive/folders/1CK8mb4mfWnSMtt1wj4aBut_f-uytSGnu?usp=sharing",
     skills: ["ROS2", "Python", "C++", "Autonomy", "Teleoperation", "Systems Engineering", "WiFi", "UART"],
   },
   {

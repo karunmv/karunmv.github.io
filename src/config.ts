@@ -67,7 +67,7 @@ projects: [
       "I developed UAV automation systems to collect and analyze agricultural data for crop monitoring applications. Using machine learning frameworks such as PyTorch and Scikit-Learn, I built models to estimate wild blueberry health and yield from aerial imagery. This work earned me the CUGR Fellowship, funded by the NASA-affiliated Maine Space Grant Consortium (MSGC), in recognition of outstanding undergraduate research.",
     //link:"https://karunmv.github.io/project-robot-arm",
     link:"https://docs.google.com/presentation/d/1PemGjIoqzGKGrZNtgpuDvgKHUEbvK_bgv9an4Fzg63Y/edit?usp=sharing",    
-    skills: ["Python", "C", "HAM Radio", "Scientific Ballooning", "Research Paper Writing", "Conference Presentation"],
+    skills: ["Python", "Machine Learning", "sklearn", "NumPy", "Pandas", "UAV", "Path Planning", "Navigation"],
   },
 ],
 
